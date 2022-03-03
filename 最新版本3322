@@ -15,7 +15,6 @@ proxies:
   - {name: 🇺🇸 US_1653 |40.83Mb, server: 142.202.48.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 🇺🇸 US_1263 |44.50Mb, server: 38.86.135.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 🇺🇸 US_1453 |39.96Mb, server: 38.86.135.36, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 US_1446 |46.31Mb, server: 38.86.135.36, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 🇺🇸 US_1434 |24.25Mb, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password:FoOiGlkAA9yPEGP, udp: true}
   - {name: 🇺🇸 US_1607 |21.53Mb, server: 38.91.102.86, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 🇦🇺 github.com/freefq - 澳大利亚  25, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 202.61.141.130}, udp: true}
@@ -245,7 +244,6 @@ proxy-groups:
       - 🇺🇸 US_1653 |40.83Mb
       - 🇺🇸 US_1263 |44.50Mb
       - 🇺🇸 US_1453 |39.96Mb
-      - 🇺🇸 US_1446 |46.31Mb
       - 🇺🇸 US_1434 |24.25Mb
       - 🇺🇸 US_1607 |21.53Mb
       - 🇦🇺 github.com/freefq - 澳大利亚  25
@@ -465,7 +463,6 @@ proxy-groups:
       - 🇺🇸 US_1653 |40.83Mb
       - 🇺🇸 US_1263 |44.50Mb
       - 🇺🇸 US_1453 |39.96Mb
-      - 🇺🇸 US_1446 |46.31Mb
       - 🇺🇸 US_1434 |24.25Mb
       - 🇺🇸 US_1607 |21.53Mb
       - 🇦🇺 github.com/freefq - 澳大利亚  25
@@ -927,7 +924,6 @@ proxy-groups:
       - 🇺🇸 US_1653 |40.83Mb
       - 🇺🇸 US_1263 |44.50Mb
       - 🇺🇸 US_1453 |39.96Mb
-      - 🇺🇸 US_1446 |46.31Mb
       - 🇺🇸 US_1434 |24.25Mb
       - 🇺🇸 US_1607 |21.53Mb
       - 🇩🇪 _US_美国->🇩🇪_DE_德国_50
