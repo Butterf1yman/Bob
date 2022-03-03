@@ -126,7 +126,7 @@ proxies:
   - {name: 🇨🇦 CA_69, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 🇨🇦 CA_70, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 🇨🇦 CA_71, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: IN IN_01, server: 192.46.209.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -264,7 +264,7 @@ proxy-groups:
       - 🇨🇦 CA_69
       - 🇨🇦 CA_70
       - 🇨🇦 CA_71
-      - IN IN_01
+
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
