@@ -8,22 +8,18 @@ external-controller: :9090
 #############代理节点################################################################
 proxies:
   - {name: 🇺🇸 US_01, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 US_02, server: 34.97.85.34, port: 23343, type: vmess, uuid: 0140eadb-fcbc-4864-a911-95e6cc9e754c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_02, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 🇺🇸 US_03, server: 13.40.96.195, port: 45530, type: vmess, uuid: e1c7c8fd-9355-4f9d-a16a-e091bb775a97, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_04, server: 106.75.141.252, port: 53009, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 🇺🇸 US_05, server: nyyd.zerohost.live, port: 53004, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: nyyd.zerohost.live}, udp: true}
-  - {name: 🇺🇸 US_06, server: 39.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 39.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_07, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 🇺🇸 US_08, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 🇺🇸 US_09, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇺🇸 US_10, server: cm.chashao.buzz, port: 21215, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: 🇺🇸 US_11, server: cm.chashao.buzz, port: 21208, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: 🇺🇸 US_12, server: cm.chashao.buzz, port: 21207, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: 🇺🇸 US_13, server: cu.chashao.buzz, port: 21207, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: 🇺🇸 US_14, server: cu.chashao.buzz, port: 21214, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: 🇺🇸 US_15, server: cm.chashao.buzz, port: 21214, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
-  - {name: 🇺🇸 US_16, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 US_17, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇸 US_04, server: 39.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 39.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_05, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
+  - {name: 🇺🇸 US_06, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 🇺🇸 US_07, server: fr-am1-1.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: gVWc0WaJn, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇺🇸 US_08, server: cm.chashao.buzz, port: 21215, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
+  - {name: 🇺🇸 US_09, server: cm.chashao.buzz, port: 21208, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
+  - {name: 🇺🇸 US_10, server: cm.chashao.buzz, port: 21207, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
+  - {name: 🇺🇸 US_11, server: cu.chashao.buzz, port: 21207, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
+  - {name: 🇺🇸 US_12, server: cu.chashao.buzz, port: 21214, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
+  - {name: 🇺🇸 US_13, server: cm.chashao.buzz, port: 21214, type: ss, cipher: chacha20-ietf-poly1305, password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467, udp: true}
   - {name: 🇨🇳 TW_01, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW_02, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW_03, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
@@ -110,10 +106,6 @@ proxy-groups:
       - 🇺🇸 US_11
       - 🇺🇸 US_12
       - 🇺🇸 US_13
-      - 🇺🇸 US_14
-      - 🇺🇸 US_15
-      - 🇺🇸 US_16
-      - 🇺🇸 US_17
       - 🇨🇳 TW_01
       - 🇨🇳 TW_02
       - 🇨🇳 TW_03
@@ -188,10 +180,6 @@ proxy-groups:
       - 🇺🇸 US_11
       - 🇺🇸 US_12
       - 🇺🇸 US_13
-      - 🇺🇸 US_14
-      - 🇺🇸 US_15
-      - 🇺🇸 US_16
-      - 🇺🇸 US_17
       - 🇨🇳 TW_01
       - 🇨🇳 TW_02
       - 🇨🇳 TW_03
@@ -306,10 +294,6 @@ proxy-groups:
       - 🇺🇸 US_11
       - 🇺🇸 US_12
       - 🇺🇸 US_13
-      - 🇺🇸 US_14
-      - 🇺🇸 US_15
-      - 🇺🇸 US_16
-      - 🇺🇸 US_17
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
