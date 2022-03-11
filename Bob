@@ -56,8 +56,6 @@ proxies:
   - {name: 🇯🇵 JP_07, server: cn01.efan.men, port: 8764, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇯🇵 JP_08, server: cn01.efan.men, port: 8765, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇯🇵 JP_09, server: cn01.efan.men, port: 8766, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇸🇬 SG_01, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG_02, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇦 CA_01, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 🇨🇦 CA_02, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 🇨🇦 CA_03, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -72,7 +70,6 @@ proxies:
   - {name: 🇨🇦 CA_12, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 🇨🇦 CA_13, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 🇨🇦 CA_14, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇳 TW_08, server: 120.233.10.121, port: 11000, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 
 
 
@@ -85,7 +82,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
@@ -143,8 +139,6 @@ proxy-groups:
       - 🇯🇵 JP_07
       - 🇯🇵 JP_08
       - 🇯🇵 JP_09
-      - 🇸🇬 SG_01
-      - 🇸🇬 SG_02
       - 🇨🇦 CA_01
       - 🇨🇦 CA_02
       - 🇨🇦 CA_03
@@ -159,9 +153,6 @@ proxy-groups:
       - 🇨🇦 CA_12
       - 🇨🇦 CA_13
       - 🇨🇦 CA_14
-      - 🇨🇳 TW_08
-
-
 
   - name: ♻️ 自动选择
     type: url-test
@@ -218,8 +209,6 @@ proxy-groups:
       - 🇯🇵 JP_07
       - 🇯🇵 JP_08
       - 🇯🇵 JP_09
-
-
 
   - name: 🇭🇰 香港节点
     type: url-test
@@ -294,15 +283,6 @@ proxy-groups:
       - 🇨🇳 TW_05
       - 🇨🇳 TW_06
       - 🇨🇳 TW_07
-      - 🇨🇳 TW_08
-  - name: 🇸🇬 新加坡节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇸🇬 SG_01
-      - 🇸🇬 SG_02
   - name: 🇨🇦 加拿大节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -324,8 +304,6 @@ proxy-groups:
       - 🇨🇦 CA_13
       - 🇨🇦 CA_14
 
-
-
 ###################################################################################
 #############后方止步################################################################
 ###################################################################################
@@ -340,7 +318,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
       - DIRECT
   - name: 📹 油管视频
     type: select
@@ -353,7 +330,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
       - DIRECT
   - name: 🎥 奈飞视频
     type: select
@@ -366,7 +342,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
@@ -385,7 +360,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
       - DIRECT
   - name: 🌏 国内媒体
     type: select
@@ -393,7 +367,6 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
       - 🚀 手动切换
   - name: 📢 谷歌FCM
@@ -408,7 +381,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -421,7 +393,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -434,7 +405,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -447,7 +417,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
   - name: 🎮 游戏平台
     type: select
     proxies:
@@ -460,7 +429,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -473,7 +441,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -501,7 +468,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇦 加拿大节点
-      - 🇸🇬 新加坡节点
       - DIRECT
 #############规则组################################################################
 rules:
