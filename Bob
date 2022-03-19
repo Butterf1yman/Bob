@@ -7,6 +7,7 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
+  - {name: 🇺🇸 Bob站点2, server: boblovezoe.ml, port: 443, type: trojan, password: boblovezoe, sni: boblovezoe.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 Bob站点, server: 192.18.141.74, port: 443, type: vmess, uuid: a8b2cdca-bb2d-40f1-af27-53605e0c8324, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zASUm, headers: {Host: bobaizoe.ml}}, udp: true}
   - {name: 🇺🇸 US_01, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇺🇸 US_02, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -78,6 +79,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 Bob站点
+      - 🇺🇸 Bob站点2
       - 🇺🇸 US_01
       - 🇺🇸 US_02
       - 🇺🇸 US_03
