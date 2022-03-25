@@ -29,7 +29,6 @@ proxies:
   - {name: 🇨🇳 TW_06, server: cn01.efan.men, port: 8783, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇨🇳 TW_07, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 🇭🇰 HK_01, server: cn01.efan.men, port: 8751, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇯🇵 JP_01, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
   - {name: 🇨🇦 CA_01, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 🇨🇦 CA_02, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 🇨🇦 CA_03, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -48,7 +47,6 @@ proxies:
   - {name: 🇷🇺 RU_01, server: 20.212.220.101, port: 8002, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru2.gfwglass.tk}}, udp: true}
   - {name: 🇷🇺 RU_02, server: 20.212.220.101, port: 8011, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
   - {name: 🇷🇺 RU_03, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
-  - {name: 🇷🇺 RU_04, server: 23.99.123.83, port: 8015, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru2.gfwglass.tk}}, udp: true}
   - {name: 🇨🇭 CH_01, server: 23.99.123.83, port: 8025, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.oracleusa.ml}}, udp: true}
   - {name: 🇨🇭 CH_02, server: 23.99.123.83, port: 8013, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.gfwglass.tk}}, udp: true}
   - {name: 🇨🇭 CH_03, server: 20.212.220.101, port: 8000, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.gfwglass.tk}}, udp: true}
@@ -106,7 +104,6 @@ proxy-groups:
       - 🇨🇳 TW_06
       - 🇨🇳 TW_07
       - 🇭🇰 HK_01
-      - 🇯🇵 JP_01
       - 🇨🇦 CA_01
       - 🇨🇦 CA_02
       - 🇨🇦 CA_03
@@ -125,7 +122,6 @@ proxy-groups:
       - 🇷🇺 RU_01
       - 🇷🇺 RU_02
       - 🇷🇺 RU_03
-      - 🇷🇺 RU_04
       - 🇨🇭 CH_01
       - 🇨🇭 CH_02
       - 🇨🇭 CH_03
@@ -170,7 +166,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP_01
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -240,7 +235,6 @@ proxy-groups:
       - 🇷🇺 RU_01
       - 🇷🇺 RU_02
       - 🇷🇺 RU_03
-      - 🇷🇺 RU_04
       - 🇨🇭 CH_01
       - 🇨🇭 CH_02
       - 🇨🇭 CH_03
