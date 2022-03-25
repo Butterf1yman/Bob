@@ -29,6 +29,7 @@ proxies:
   - {name: 🇨🇳 TW_06, server: cn01.efan.men, port: 8783, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇨🇳 TW_07, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 🇭🇰 HK_01, server: cn01.efan.men, port: 8751, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
+  - {name: 🇯🇵 JP_01, server: cn01.efan.men, port: 8751, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇨🇦 CA_01, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 🇨🇦 CA_02, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 🇨🇦 CA_03, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -104,6 +105,7 @@ proxy-groups:
       - 🇨🇳 TW_06
       - 🇨🇳 TW_07
       - 🇭🇰 HK_01
+      - 🇯🇵 JP_01
       - 🇨🇦 CA_01
       - 🇨🇦 CA_02
       - 🇨🇦 CA_03
@@ -166,6 +168,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 JP_01
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
