@@ -21,6 +21,7 @@ proxies:
   - {name: 🇺🇸 US_12, server: 23.99.123.83, port: 8016, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaarm1.oracleusa.ml}}, udp: true}
   - {name: 🇺🇸 US_13, server: 20.212.220.101, port: 8003, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaarm1.oracleusa.ml}}, udp: true}
   - {name: 🇺🇸 US_14, server: 20.212.220.101, port: 8006, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_15, server: kor.oracleusa.ml, port: 443, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: kor.oracleusa.ml}}, udp: true}
   - {name: 🇨🇳 TW_01, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW_02, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW_03, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
@@ -60,7 +61,6 @@ proxies:
   - {name: 🇫🇷 FR_01, server: fr.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: fr.oracleusa.ml}}, udp: true}
   - {name: 🇮🇱 IL_01, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
   - {name: 🇮🇱 IL_02, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
-  - {name: 🇰🇷 KR_01, server: kor.oracleusa.ml, port: 443, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: kor.oracleusa.ml}}, udp: true}
   - {name: 🇳🇱 NL_01, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: nl.oracleusa.ml}}, udp: true}
  
 
@@ -97,6 +97,7 @@ proxy-groups:
       - 🇺🇸 US_12
       - 🇺🇸 US_13
       - 🇺🇸 US_14
+      - 🇺🇸 US_15
       - 🇨🇳 TW_01
       - 🇨🇳 TW_02
       - 🇨🇳 TW_03
@@ -136,7 +137,6 @@ proxy-groups:
       - 🇫🇷 FR_01
       - 🇮🇱 IL_01
       - 🇮🇱 IL_02
-      - 🇰🇷 KR_01
       - 🇳🇱 NL_01
   
       
@@ -189,6 +189,7 @@ proxy-groups:
       - 🇺🇸 US_12
       - 🇺🇸 US_13
       - 🇺🇸 US_14
+      - 🇺🇸 US_15
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -250,7 +251,6 @@ proxy-groups:
       - 🇫🇷 FR_01
       - 🇮🇱 IL_01
       - 🇮🇱 IL_02
-      - 🇰🇷 KR_01
       - 🇳🇱 NL_01
 
 
