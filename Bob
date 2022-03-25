@@ -7,8 +7,6 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
-  - {name: 🇺🇸 Bob站点, server: 192.18.141.74, port: 443, type: vmess, uuid: a8b2cdca-bb2d-40f1-af27-53605e0c8324, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zASUm, headers: {Host: bobaizoe.ml}}, udp: true}
-  - {name: 🇺🇸 Bob站点2, server: boblovezoe.ml, port: 443, type: trojan, password: boblovezoe, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 US_01, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇺🇸 US_02, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 🇺🇸 US_03, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
@@ -24,21 +22,6 @@ proxies:
   - {name: 🇭🇰 HK_03, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇭🇰 HK_04, server: cn01.efan.men, port: 8754, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇭🇰 HK_05, server: cn01.efan.men, port: 8755, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_06, server: cn01.efan.men, port: 8756, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_07, server: cn01.efan.men, port: 8757, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_08, server: cn01.efan.men, port: 8758, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_09, server: cn01.efan.men, port: 8759, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_10, server: cn01.efan.men, port: 8760, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_11, server: cn01.efan.men, port: 8711, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_12, server: cn01.efan.men, port: 8712, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_13, server: cn01.efan.men, port: 8713, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_14, server: cn01.efan.men, port: 8714, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_15, server: cn01.efan.men, port: 8715, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_16, server: cn01.efan.men, port: 8716, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_17, server: cn01.efan.men, port: 8717, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_18, server: cn01.efan.men, port: 8718, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_19, server: cn01.efan.men, port: 8719, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_20, server: cn01.efan.men, port: 8720, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇯🇵 JP_01, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
   - {name: 🇯🇵 JP_02, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 JP_03, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false, udp: true}
@@ -78,8 +61,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇺🇸 Bob站点
-      - 🇺🇸 Bob站点2
       - 🇺🇸 US_01
       - 🇺🇸 US_02
       - 🇺🇸 US_03
@@ -95,21 +76,6 @@ proxy-groups:
       - 🇭🇰 HK_03
       - 🇭🇰 HK_04
       - 🇭🇰 HK_05
-      - 🇭🇰 HK_06
-      - 🇭🇰 HK_07
-      - 🇭🇰 HK_08
-      - 🇭🇰 HK_09
-      - 🇭🇰 HK_10
-      - 🇭🇰 HK_11
-      - 🇭🇰 HK_12
-      - 🇭🇰 HK_13
-      - 🇭🇰 HK_14
-      - 🇭🇰 HK_15
-      - 🇭🇰 HK_16
-      - 🇭🇰 HK_17
-      - 🇭🇰 HK_18
-      - 🇭🇰 HK_19
-      - 🇭🇰 HK_20
       - 🇯🇵 JP_01
       - 🇯🇵 JP_02
       - 🇯🇵 JP_03
@@ -155,21 +121,6 @@ proxy-groups:
       - 🇭🇰 HK_03
       - 🇭🇰 HK_04
       - 🇭🇰 HK_05
-      - 🇭🇰 HK_06
-      - 🇭🇰 HK_07
-      - 🇭🇰 HK_08
-      - 🇭🇰 HK_09
-      - 🇭🇰 HK_10
-      - 🇭🇰 HK_11
-      - 🇭🇰 HK_12
-      - 🇭🇰 HK_13
-      - 🇭🇰 HK_14
-      - 🇭🇰 HK_15
-      - 🇭🇰 HK_16
-      - 🇭🇰 HK_17
-      - 🇭🇰 HK_18
-      - 🇭🇰 HK_19
-      - 🇭🇰 HK_20
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -191,8 +142,6 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 Bob站点
-      - 🇺🇸 Bob站点2
       - 🇺🇸 US_01
       - 🇺🇸 US_02
       - 🇺🇸 US_03
