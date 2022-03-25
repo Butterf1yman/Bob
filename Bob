@@ -10,6 +10,17 @@ proxies:
   - {name: 🇺🇸 US_01, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇺🇸 US_02, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 🇺🇸 US_03, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 🇺🇸 US_04, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_05, server: usa1.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usa1.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_06, server: 23.99.123.83, port: 8020, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usa.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_07, server: 23.99.123.83, port: 8014, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: vir.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_08, server: 23.99.123.83, port: 8019, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_09, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usa.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_10, server: 20.212.220.101, port: 8003, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaarm1.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_11, server: 20.212.220.101, port: 8006, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_12, server: 23.99.123.83, port: 8016, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaarm1.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_13, server: 20.212.220.101, port: 8003, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaarm1.oracleusa.ml}}, udp: true}
+  - {name: 🇺🇸 US_14, server: 20.212.220.101, port: 8006, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
   - {name: 🇨🇳 TW_01, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW_02, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW_03, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
@@ -18,19 +29,7 @@ proxies:
   - {name: 🇨🇳 TW_06, server: cn01.efan.men, port: 8783, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇨🇳 TW_07, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 🇭🇰 HK_01, server: cn01.efan.men, port: 8751, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_02, server: cn01.efan.men, port: 8752, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_03, server: cn01.efan.men, port: 8753, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_04, server: cn01.efan.men, port: 8754, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇭🇰 HK_05, server: cn01.efan.men, port: 8755, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇯🇵 JP_01, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: 🇯🇵 JP_02, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP_03, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP_04, server: cn01.efan.men, port: 8761, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇯🇵 JP_05, server: cn01.efan.men, port: 8762, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇯🇵 JP_06, server: cn01.efan.men, port: 8763, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇯🇵 JP_07, server: cn01.efan.men, port: 8764, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇯🇵 JP_08, server: cn01.efan.men, port: 8765, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇯🇵 JP_09, server: cn01.efan.men, port: 8766, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇨🇦 CA_01, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 🇨🇦 CA_02, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 🇨🇦 CA_03, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -41,8 +40,30 @@ proxies:
   - {name: 🇨🇦 CA_08, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 🇨🇦 CA_09, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇨🇦 CA_10, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-
-
+  - {name: 🇸🇬 SG_01, server: 23.99.123.83, port: 8022, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg.oracleusa.ml}}, udp: true}
+  - {name: 🇸🇬 SG_02, server: 20.212.220.101, port: 8007, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usa.oracleusa.ml}}, udp: true}
+  - {name: 🇸🇬 SG_03, server: 20.212.220.101, port: 8004, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ex.oracleusa.ml}}, udp: true}
+  - {name: 🇸🇬 SG_04, server: 20.212.220.101, port: 8055, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
+  - {name: 🇸🇬 SG_05, server: 20.212.220.101, port: 8009, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg.oracleusa.ml}}, udp: true}
+  - {name: 🇷🇺 RU_01, server: 20.212.220.101, port: 8002, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru2.gfwglass.tk}}, udp: true}
+  - {name: 🇷🇺 RU_02, server: 20.212.220.101, port: 8011, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
+  - {name: 🇷🇺 RU_03, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
+  - {name: 🇷🇺 RU_04, server: 23.99.123.83, port: 8015, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru2.gfwglass.tk}}, udp: true}
+  - {name: 🇨🇭 CH_01, server: 23.99.123.83, port: 8025, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.oracleusa.ml}}, udp: true}
+  - {name: 🇨🇭 CH_02, server: 23.99.123.83, port: 8013, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.gfwglass.tk}}, udp: true}
+  - {name: 🇨🇭 CH_03, server: 20.212.220.101, port: 8000, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.gfwglass.tk}}, udp: true}
+  - {name: 🇨🇭 CH_04, server: 20.212.220.101, port: 8012, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.oracleusa.ml}}, udp: true}
+  - {name: 🇨🇭 CH_05, server: sw.gfwglass.tk, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.gfwglass.tk}}, udp: true}
+  - {name: 🇨🇭 CH_06, server: sw.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.oracleusa.ml}}, udp: true}
+  - {name: 🇩🇪 DE_01, server: de.oracleusa.ml, port: 443, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: de.oracleusa.ml}}, udp: true}
+  - {name: 摩尔多瓦, server: 23.99.123.83, port: 8017, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ex.oracleusa.ml}}, udp: true}
+  - {name: 摩尔多瓦2, server: ex.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ex.oracleusa.ml}}, udp: true}
+  - {name: 🇫🇷 FR_01, server: fr.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: fr.oracleusa.ml}}, udp: true}
+  - {name: 🇮🇱 IL_01, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
+  - {name: 🇮🇱 IL_02, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
+  - {name: 🇰🇷 KR_01, server: kor.oracleusa.ml, port: 443, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: kor.oracleusa.ml}}, udp: true}
+  - {name: 🇳🇱 NL_01, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: nl.oracleusa.ml}}, udp: true}
+ 
 
 
 #############策略组################################################################
@@ -55,7 +76,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
       - 🚀 手动切换
       - DIRECT
   - name: 🚀 手动切换
@@ -64,6 +87,17 @@ proxy-groups:
       - 🇺🇸 US_01
       - 🇺🇸 US_02
       - 🇺🇸 US_03
+      - 🇺🇸 US_04
+      - 🇺🇸 US_05
+      - 🇺🇸 US_06
+      - 🇺🇸 US_07
+      - 🇺🇸 US_08
+      - 🇺🇸 US_09
+      - 🇺🇸 US_10
+      - 🇺🇸 US_11
+      - 🇺🇸 US_12
+      - 🇺🇸 US_13
+      - 🇺🇸 US_14
       - 🇨🇳 TW_01
       - 🇨🇳 TW_02
       - 🇨🇳 TW_03
@@ -72,19 +106,7 @@ proxy-groups:
       - 🇨🇳 TW_06
       - 🇨🇳 TW_07
       - 🇭🇰 HK_01
-      - 🇭🇰 HK_02
-      - 🇭🇰 HK_03
-      - 🇭🇰 HK_04
-      - 🇭🇰 HK_05
       - 🇯🇵 JP_01
-      - 🇯🇵 JP_02
-      - 🇯🇵 JP_03
-      - 🇯🇵 JP_04
-      - 🇯🇵 JP_05
-      - 🇯🇵 JP_06
-      - 🇯🇵 JP_07
-      - 🇯🇵 JP_08
-      - 🇯🇵 JP_09
       - 🇨🇦 CA_01
       - 🇨🇦 CA_02
       - 🇨🇦 CA_03
@@ -95,7 +117,31 @@ proxy-groups:
       - 🇨🇦 CA_08
       - 🇨🇦 CA_09
       - 🇨🇦 CA_10
-
+      - 🇸🇬 SG_01
+      - 🇸🇬 SG_02
+      - 🇸🇬 SG_03
+      - 🇸🇬 SG_04
+      - 🇸🇬 SG_05
+      - 🇷🇺 RU_01
+      - 🇷🇺 RU_02
+      - 🇷🇺 RU_03
+      - 🇷🇺 RU_04
+      - 🇨🇭 CH_01
+      - 🇨🇭 CH_02
+      - 🇨🇭 CH_03
+      - 🇨🇭 CH_04
+      - 🇨🇭 CH_05
+      - 🇨🇭 CH_06
+      - 🇩🇪 DE_01
+      - 摩尔多瓦
+      - 摩尔多瓦2
+      - 🇫🇷 FR_01
+      - 🇮🇱 IL_01
+      - 🇮🇱 IL_02
+      - 🇰🇷 KR_01
+      - 🇳🇱 NL_01
+  
+      
 
   - name: ♻️ 自动选择
     type: url-test
@@ -107,9 +153,10 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
       - 🚀 手动切换
-
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -117,10 +164,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 HK_01
-      - 🇭🇰 HK_02
-      - 🇭🇰 HK_03
-      - 🇭🇰 HK_04
-      - 🇭🇰 HK_05
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -128,14 +171,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 JP_01
-      - 🇯🇵 JP_02
-      - 🇯🇵 JP_03
-      - 🇯🇵 JP_04
-      - 🇯🇵 JP_05
-      - 🇯🇵 JP_06
-      - 🇯🇵 JP_07
-      - 🇯🇵 JP_08
-      - 🇯🇵 JP_09
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -145,6 +180,17 @@ proxy-groups:
       - 🇺🇸 US_01
       - 🇺🇸 US_02
       - 🇺🇸 US_03
+      - 🇺🇸 US_04
+      - 🇺🇸 US_05
+      - 🇺🇸 US_06
+      - 🇺🇸 US_07
+      - 🇺🇸 US_08
+      - 🇺🇸 US_09
+      - 🇺🇸 US_10
+      - 🇺🇸 US_11
+      - 🇺🇸 US_12
+      - 🇺🇸 US_13
+      - 🇺🇸 US_14
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -174,7 +220,41 @@ proxy-groups:
       - 🇨🇦 CA_08
       - 🇨🇦 CA_09
       - 🇨🇦 CA_10
-
+  - name: 🇸🇬 新加坡节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 SG_01
+      - 🇸🇬 SG_02
+      - 🇸🇬 SG_03
+      - 🇸🇬 SG_04
+      - 🇸🇬 SG_05
+  - name: 🇨🇳 偏僻节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇷🇺 RU_01
+      - 🇷🇺 RU_02
+      - 🇷🇺 RU_03
+      - 🇷🇺 RU_04
+      - 🇨🇭 CH_01
+      - 🇨🇭 CH_02
+      - 🇨🇭 CH_03
+      - 🇨🇭 CH_04
+      - 🇨🇭 CH_05
+      - 🇨🇭 CH_06
+      - 🇩🇪 DE_01
+      - 摩尔多瓦
+      - 摩尔多瓦2
+      - 🇫🇷 FR_01
+      - 🇮🇱 IL_01
+      - 🇮🇱 IL_02
+      - 🇰🇷 KR_01
+      - 🇳🇱 NL_01
 
 
 ###################################################################################
@@ -190,7 +270,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
       - DIRECT
   - name: 📹 油管视频
     type: select
@@ -202,7 +284,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
       - DIRECT
   - name: 🎥 奈飞视频
     type: select
@@ -214,7 +298,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
       - DIRECT
   - name: 📺 哔哩哔哩
     type: select
@@ -232,7 +318,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
       - DIRECT
   - name: 🌏 国内媒体
     type: select
@@ -241,6 +329,10 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
+      - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
       - 🚀 手动切换
   - name: 📢 谷歌FCM
     type: select
@@ -253,7 +345,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -265,7 +359,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -277,7 +373,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -289,7 +387,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
   - name: 🎮 游戏平台
     type: select
     proxies:
@@ -301,7 +401,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
   - name: 🎶 网易音乐
     type: select
     proxies:
@@ -313,7 +415,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,7 +444,9 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇨🇳 偏僻节点  
       - 🇨🇦 加拿大节点
+      - 🇸🇬 新加坡节点
       - DIRECT
 #############规则组################################################################
 rules:
