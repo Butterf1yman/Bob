@@ -25,10 +25,7 @@ proxies:
   - {name: 🇨🇳 TW_01, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW_02, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW_03, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: sni.gouziyun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 TW_04, server: cn01.efan.men, port: 8781, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 TW_05, server: cn01.efan.men, port: 8782, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 TW_06, server: cn01.efan.men, port: 8783, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
-  - {name: 🇨🇳 TW_07, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 🇨🇳 TW_04, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 🇭🇰 HK_01, server: cn01.efan.men, port: 8751, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇯🇵 JP_01, server: cn01.efan.men, port: 8751, type: ssr, cipher: rc4-md5, password: efanccyun, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: 52035-R92k7sru9Q.download.microsoft.com, udp: true}
   - {name: 🇨🇦 CA_01, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -102,9 +99,6 @@ proxy-groups:
       - 🇨🇳 TW_02
       - 🇨🇳 TW_03
       - 🇨🇳 TW_04
-      - 🇨🇳 TW_05
-      - 🇨🇳 TW_06
-      - 🇨🇳 TW_07
       - 🇭🇰 HK_01
       - 🇯🇵 JP_01
       - 🇨🇦 CA_01
@@ -200,9 +194,6 @@ proxy-groups:
       - 🇨🇳 TW_02
       - 🇨🇳 TW_03
       - 🇨🇳 TW_04
-      - 🇨🇳 TW_05
-      - 🇨🇳 TW_06
-      - 🇨🇳 TW_07
   - name: 🇨🇦 加拿大节点
     type: url-test
     url: http://www.gstatic.com/generate_204
