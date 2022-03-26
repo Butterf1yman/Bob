@@ -39,6 +39,7 @@ proxies:
   - {name: 🇭🇰 HK_02, server: hk4.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: hk4.peakerselling.com}, udp: true}
   - {name: 🇭🇰 HK_03, server: 13.75.95.54, port: 10016, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 13.75.95.54}, udp: true}
   - {name: 🇭🇰 HK_04, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK_05, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
   - {name: 🇯🇵 JP_01, server: 1.wwwkkk.xyz, port: 48915, type: vmess, uuid: 1cf92bff-6413-47b2-c292-6c6effc8ec72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP_02, server: 8.wwwkkk.xyz, port: 443, type: vmess, uuid: cee6bef2-e7d9-43b4-96db-50b891ba30a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP_03, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
@@ -73,7 +74,6 @@ proxies:
   - {name: 🇳🇱 ⭐NL_01, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: nl.oracleusa.ml}}, udp: true}
   - {name: 阿联酋, server: ocdb.vproxy.us, port: 34567, type: trojan, password: e0913474-5cf2-4917-96b2-f83b56e224e2, sni: ocdb.vproxy.us, skip-cert-verify: true, udp: true}
   - {name: 卢森堡, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 卢森堡2, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
   - {name: 🇩🇪 DE_01, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 
 
@@ -125,6 +125,7 @@ proxy-groups:
       - 🇭🇰 HK_02
       - 🇭🇰 HK_03
       - 🇭🇰 HK_04
+      - 🇭🇰 HK_05
       - 🇯🇵 JP_01
       - 🇯🇵 JP_02
       - 🇯🇵 JP_03
@@ -159,7 +160,6 @@ proxy-groups:
       - 🇳🇱 ⭐NL_01
       - 阿联酋
       - 卢森堡
-      - 卢森堡2
       - 🇩🇪 DE_01
 
   
@@ -187,6 +187,7 @@ proxy-groups:
       - 🇭🇰 HK_02
       - 🇭🇰 HK_03
       - 🇭🇰 HK_04
+      - 🇭🇰 HK_05
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -273,7 +274,6 @@ proxy-groups:
       - 🇳🇱 ⭐NL_01
       - 阿联酋
       - 卢森堡
-      - 卢森堡2
       - 🇩🇪 DE_01
 
 ###################################################################################
