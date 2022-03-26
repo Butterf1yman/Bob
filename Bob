@@ -271,8 +271,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
+      - 🇭🇰 港台节点
   - name: 🌍 国外媒体
     type: select
     proxies:
