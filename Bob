@@ -29,9 +29,18 @@ proxies:
   - {name: 🇺🇸 US_20, server: de.oracleusa.ml, port: 443, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: de.oracleusa.ml}}, udp: true}
   - {name: 🇺🇸 US_21, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 🇺🇸 US_22, server: 64.27.30.217, port: 21418, type: vmess, uuid: e396b9ad-d1d3-4f58-885e-df6638db37eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_23, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_24, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 US_25, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
+  - {name: 🇺🇸 US_26, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_27, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}, udp: true}
+  - {name: 🇺🇸 US_28, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇭🇰 HK_01, server: 34.92.135.18, port: 49838, type: vmess, uuid: 4b0ba381-9191-4dd0-a564-2658b07a2902, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK_02, server: hk4.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: hk4.peakerselling.com}, udp: true}
+  - {name: 🇭🇰 HK_03, server: 13.75.95.54, port: 10016, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 13.75.95.54}, udp: true}
   - {name: 🇯🇵 JP_01, server: 1.wwwkkk.xyz, port: 48915, type: vmess, uuid: 1cf92bff-6413-47b2-c292-6c6effc8ec72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP_02, server: 8.wwwkkk.xyz, port: 443, type: vmess, uuid: cee6bef2-e7d9-43b4-96db-50b891ba30a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP_03, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
   - {name: 🇨🇦 CA_01, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 🇨🇦 CA_02, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 🇨🇦 CA_03, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -46,6 +55,7 @@ proxies:
   - {name: 🇷🇺 RU_01, server: 20.212.220.101, port: 8002, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru2.gfwglass.tk}}, udp: true}
   - {name: 🇷🇺 RU_02, server: 20.212.220.101, port: 8011, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
   - {name: 🇷🇺 RU_03, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
+  - {name: 🇷🇺 RU_04, server: ru2.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: ru2.peakerselling.com}, udp: true}
   - {name: 🇨🇭 CH_01, server: 23.99.123.83, port: 8025, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.oracleusa.ml}}, udp: true}
   - {name: 🇨🇭 CH_02, server: 23.99.123.83, port: 8013, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.gfwglass.tk}}, udp: true}
   - {name: 🇨🇭 CH_03, server: 20.212.220.101, port: 8000, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sw.gfwglass.tk}}, udp: true}
@@ -56,9 +66,19 @@ proxies:
   - {name: 摩尔多瓦2, server: ex.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ex.oracleusa.ml}}, udp: true}
   - {name: 摩尔多瓦3, server: 20.212.220.101, port: 8004, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ex.oracleusa.ml}}, udp: true}
   - {name: 🇫🇷 FR_01, server: fr.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: fr.oracleusa.ml}}, udp: true}
+  - {name: 🇫🇷 FR_02, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 🇮🇱 IL_01, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
   - {name: 🇮🇱 IL_02, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
   - {name: 🇳🇱 NL_01, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: nl.oracleusa.ml}}, udp: true}
+  - {name:1, server: my.aoyyds.ga, port: 2087, type: vmess, uuid: d9bd1887-54dc-4380-b9df-42977a24b453, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xsqfvws, ws-headers: {Host: my.aoyyds.ga}, udp: true}
+  - {name:阿联酋, server: ocdb.vproxy.us, port: 34567, type: trojan, password: e0913474-5cf2-4917-96b2-f83b56e224e2, sni: ocdb.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CH_01, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CH_02, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CH_03, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: 🇨🇳 CH_04, server: 183.232.56.161, port: 1602, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: 🇨🇳 CH_05, server: 183.232.56.161, port: 1101, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: 🇩🇪 DE_01, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG_01, server: sp1.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: sp1.peakerselling.com}, udp: true}
 
 
 #############策略组################################################################
@@ -99,8 +119,18 @@ proxy-groups:
       - 🇺🇸 US_20
       - 🇺🇸 US_21
       - 🇺🇸 US_22
+      - 🇺🇸 US_23
+      - 🇺🇸 US_24
+      - 🇺🇸 US_25
+      - 🇺🇸 US_26
+      - 🇺🇸 US_27
+      - 🇺🇸 US_28
       - 🇭🇰 HK_01
+      - 🇭🇰 HK_02
+      - 🇭🇰 HK_03
       - 🇯🇵 JP_01
+      - 🇯🇵 JP_02
+      - 🇯🇵 JP_03
       - 🇨🇦 CA_01
       - 🇨🇦 CA_02
       - 🇨🇦 CA_03
@@ -115,6 +145,7 @@ proxy-groups:
       - 🇷🇺 RU_01
       - 🇷🇺 RU_02
       - 🇷🇺 RU_03
+      - 🇷🇺 RU_04
       - 🇨🇭 CH_01
       - 🇨🇭 CH_02
       - 🇨🇭 CH_03
@@ -125,10 +156,19 @@ proxy-groups:
       - 摩尔多瓦2
       - 摩尔多瓦3
       - 🇫🇷 FR_01
+      - 🇫🇷 FR_02
       - 🇮🇱 IL_01
       - 🇮🇱 IL_02
       - 🇳🇱 NL_01
-
+      - 1
+      - 阿联酋
+      - 🇨🇳 CH_01
+      - 🇨🇳 CH_02
+      - 🇨🇳 CH_03
+      - 🇨🇳 CH_04
+      - 🇨🇳 CH_05
+      - 🇩🇪 DE_01
+      - 🇸🇬 SG_01
   
       
 
@@ -151,6 +191,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 HK_01
+      - 🇭🇰 HK_02
+      - 🇭🇰 HK_03
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -159,6 +201,7 @@ proxy-groups:
     proxies:
       - 🇯🇵 JP_01
       - 🇯🇵 JP_02
+      - 🇯🇵 JP_03
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -187,6 +230,12 @@ proxy-groups:
       - 🇺🇸 US_20
       - 🇺🇸 US_21
       - 🇺🇸 US_22
+      - 🇺🇸 US_23
+      - 🇺🇸 US_24
+      - 🇺🇸 US_25
+      - 🇺🇸 US_26
+      - 🇺🇸 US_27
+      - 🇺🇸 US_28
   - name: 🇨🇦 加拿大节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -223,6 +272,7 @@ proxy-groups:
       - 摩尔多瓦2
       - 摩尔多瓦3
       - 🇫🇷 FR_01
+      - 🇫🇷 FR_02
       - 🇮🇱 IL_01
       - 🇮🇱 IL_02
       - 🇳🇱 NL_01
