@@ -31,10 +31,9 @@ proxies:
   - {name: 🇺🇸 US_22, server: 64.27.30.217, port: 21418, type: vmess, uuid: e396b9ad-d1d3-4f58-885e-df6638db37eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_23, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_24, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 US_25, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
-  - {name: 🇺🇸 US_26, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_27, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}, udp: true}
-  - {name: 🇺🇸 US_28, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 US_25, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_26, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}, udp: true}
+  - {name: 🇺🇸 US_27, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇭🇰 HK_01, server: 34.92.135.18, port: 49838, type: vmess, uuid: 4b0ba381-9191-4dd0-a564-2658b07a2902, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_02, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_03, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
@@ -117,7 +116,6 @@ proxy-groups:
       - 🇺🇸 US_25
       - 🇺🇸 US_26
       - 🇺🇸 US_27
-      - 🇺🇸 US_28
       - 🇭🇰 HK_01
       - 🇭🇰 HK_02
       - 🇭🇰 HK_03
@@ -222,7 +220,6 @@ proxy-groups:
       - 🇺🇸 US_25
       - 🇺🇸 US_26
       - 🇺🇸 US_27
-      - 🇺🇸 US_28
   - name: 🇨🇦 加拿大节点
     type: url-test
     url: http://www.gstatic.com/generate_204
