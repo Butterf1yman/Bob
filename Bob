@@ -76,7 +76,6 @@ proxies:
   - {name: 卢森堡, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 DE_01, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 KR_01, server: 20.214.185.230, port: 1050, type: vmess, uuid: 564feb17-ffcf-48c2-ade8-ee546005efbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 1, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me.vpnhat}, udp: true}
   - {name: 🇰🇷 KR_02, server: 20.214.185.230, port: 1050, type: vmess, uuid: 564feb17-ffcf-48c2-ade8-ee546005efbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 
 
@@ -164,7 +163,6 @@ proxy-groups:
       - 阿联酋
       - 卢森堡
       - 🇩🇪 DE_01
-      - 1
       - 🇰🇷 KR_01
       - 🇰🇷 KR_02
 
@@ -281,7 +279,6 @@ proxy-groups:
       - 阿联酋
       - 卢森堡
       - 🇩🇪 DE_01
-      - 1
       - 🇰🇷 KR_01
       - 🇰🇷 KR_02
 
