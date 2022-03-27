@@ -37,7 +37,7 @@ proxies:
   - {name: 🇭🇰 HK_01, server: 34.92.135.18, port: 49838, type: vmess, uuid: 4b0ba381-9191-4dd0-a564-2658b07a2902, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_02, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_03, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 🇯🇵 JP_01, server: 1.wwwkkk.xyz, port: 48915, type: vmess, uuid: 1cf92bff-6413-47b2-c292-6c6effc8ec72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK_04，server: nn01.nfeng6.pp.ua，port: 60021，type: vmess，uuid: 0a6e2599-5683-33ed-9f50-deef337c9924，alterId: 2，cipher: auto，tls: false，skip-cert-verify: true，network: ws，ws-path: /，ws-headers: {Host: nn01.nfeng6.pp.ua}，udp: true}
   - {name: 🇯🇵 JP_02, server: 8.wwwkkk.xyz, port: 443, type: vmess, uuid: cee6bef2-e7d9-43b4-96db-50b891ba30a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP_03, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
   - {name: 🇨🇦 CA_01, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -119,6 +119,7 @@ proxy-groups:
       - 🇭🇰 HK_01
       - 🇭🇰 HK_02
       - 🇭🇰 HK_03
+      - 🇭🇰 HK_04
       - 🇯🇵 JP_01
       - 🇯🇵 JP_02
       - 🇯🇵 JP_03
@@ -178,6 +179,7 @@ proxy-groups:
       - 🇭🇰 HK_01
       - 🇭🇰 HK_02
       - 🇭🇰 HK_03
+      - 🇭🇰 HK_04
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
