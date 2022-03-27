@@ -7,7 +7,7 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
-  - {name: 🇺🇸 Bobaizoe, server: 192.18.141.74, port: 443, type: vmess, uuid: 5399d044-e996-4989-b76d-a548aaa64310, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oDoad1HLVYnq, headers: {Host: bobaizoe.ml}}, udp: true}
+  - {name: 🇺🇸 ⭐Bobaizoe, server: 192.18.141.74, port: 443, type: vmess, uuid: 5399d044-e996-4989-b76d-a548aaa64310, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oDoad1HLVYnq, headers: {Host: bobaizoe.ml}}, udp: true}
   - {name: 🇺🇸 US_01, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇺🇸 US_02, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 🇺🇸 US_03, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
@@ -96,7 +96,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇺🇸 Bobaizoe
+      - 🇺🇸 ⭐Bobaizoe
       - 🇺🇸 US_01
       - 🇺🇸 US_02
       - 🇺🇸 US_03
@@ -211,7 +211,7 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 Bobaizoe
+      - 🇺🇸 ⭐Bobaizoe
       - 🇺🇸 US_01
       - 🇺🇸 US_02
       - 🇺🇸 US_03
