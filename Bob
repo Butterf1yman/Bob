@@ -26,26 +26,8 @@ proxies:
   - {name: 🇺🇸 ⭐US_15, server: 23.99.123.83, port: 8022, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: sg.oracleusa.ml}}, udp: true}
   - {name: 🇺🇸 ⭐US_16, server: 20.212.220.101, port: 8007, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usa.oracleusa.ml}}, udp: true}
   - {name: 🇺🇸 ⭐US_17, server: de.oracleusa.ml, port: 443, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: de.oracleusa.ml}}, udp: true}
-  - {name: 🇺🇸 US_18, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 US_19, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 US_20, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 🇺🇸 US_21, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 US_22, server: 64.27.30.217, port: 21418, type: vmess, uuid: e396b9ad-d1d3-4f58-885e-df6638db37eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_23, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_24, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 US_25, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_26, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}, udp: true}
-  - {name: 🇺🇸 US_27, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 US_28, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇭🇰 HK_01, server: 34.92.135.18, port: 49838, type: vmess, uuid: 4b0ba381-9191-4dd0-a564-2658b07a2902, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK_02, server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK_03, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 🇭🇰 HK_04, server: nn01.nfeng6.pp.ua, port: 60021, type: vmess, uuid: 0a6e2599-5683-33ed-9f50-deef337c9924, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: nn01.nfeng6.pp.ua}, udp: true}
-  - {name: 🇭🇰 HK_05, server: 20.239.70.224, port: 1050, type: vmess, uuid: 05f95750-1c92-41c8-e44a-2057855e21aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK_01, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
   - {name: 🇯🇵 JP_01, server: 1.wwwkkk.xyz, port: 48915, type: vmess, uuid: 1cf92bff-6413-47b2-c292-6c6effc8ec72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP_02, server: 8.wwwkkk.xyz, port: 443, type: vmess, uuid: cee6bef2-e7d9-43b4-96db-50b891ba30a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP_03, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: 🇯🇵 JP_04, server: 40.74.85.36, port: 1050, type: vmess, uuid: 60c11015-6813-4a88-b37f-706632f413d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 ⭐RU_01, server: 20.212.220.101, port: 8002, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru2.gfwglass.tk}}, udp: true}
   - {name: 🇷🇺 ⭐RU_02, server: 20.212.220.101, port: 8011, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
   - {name: 🇷🇺 ⭐RU_03, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
@@ -63,12 +45,6 @@ proxies:
   - {name: 🇮🇱 ⭐IL_01, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
   - {name: 🇮🇱 ⭐IL_02, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
   - {name: 🇳🇱 ⭐NL_01, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: nl.oracleusa.ml}}, udp: true}
-  - {name: 阿联酋, server: ocdb.vproxy.us, port: 34567, type: trojan, password: e0913474-5cf2-4917-96b2-f83b56e224e2, sni: ocdb.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: 卢森堡, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE_01, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR_01, server: 20.214.185.230, port: 1050, type: vmess, uuid: 564feb17-ffcf-48c2-ade8-ee546005efbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR_02, server: 20.214.185.230, port: 1050, type: vmess, uuid: 564feb17-ffcf-48c2-ade8-ee546005efbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-
 
 #############策略组################################################################
 proxy-groups:
@@ -104,26 +80,8 @@ proxy-groups:
       - 🇺🇸 ⭐US_15
       - 🇺🇸 ⭐US_16
       - 🇺🇸 ⭐US_17
-      - 🇺🇸 US_18
-      - 🇺🇸 US_19
-      - 🇺🇸 US_20
-      - 🇺🇸 US_21
-      - 🇺🇸 US_22
-      - 🇺🇸 US_23
-      - 🇺🇸 US_24
-      - 🇺🇸 US_25
-      - 🇺🇸 US_26
-      - 🇺🇸 US_27
-      - 🇺🇸 US_28
       - 🇭🇰 HK_01
-      - 🇭🇰 HK_02
-      - 🇭🇰 HK_03
-      - 🇭🇰 HK_04
-      - 🇭🇰 HK_05
       - 🇯🇵 JP_01
-      - 🇯🇵 JP_02
-      - 🇯🇵 JP_03
-      - 🇯🇵 JP_04
       - 🇷🇺 ⭐RU_01
       - 🇷🇺 ⭐RU_02
       - 🇷🇺 ⭐RU_03
@@ -137,15 +95,9 @@ proxy-groups:
       - ⭐摩尔多瓦2
       - ⭐摩尔多瓦3
       - 🇫🇷 ⭐FR_01
-      - 🇫🇷 FR_02
       - 🇮🇱 ⭐IL_01
       - 🇮🇱 ⭐IL_02
       - 🇳🇱 ⭐NL_01
-      - 阿联酋
-      - 卢森堡
-      - 🇩🇪 DE_01
-      - 🇰🇷 KR_01
-      - 🇰🇷 KR_02
 
 
   - name: ♻️ 自动选择
@@ -166,9 +118,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 HK_01
-      - 🇭🇰 HK_02
-      - 🇭🇰 HK_03
-      - 🇭🇰 HK_04
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -176,9 +125,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 JP_01
-      - 🇯🇵 JP_02
-      - 🇯🇵 JP_03
-      - 🇯🇵 JP_04
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -204,16 +150,6 @@ proxy-groups:
       - 🇺🇸 ⭐US_15
       - 🇺🇸 ⭐US_16
       - 🇺🇸 ⭐US_17
-      - 🇺🇸 US_18
-      - 🇺🇸 US_19
-      - 🇺🇸 US_20
-      - 🇺🇸 US_21
-      - 🇺🇸 US_22
-      - 🇺🇸 US_23
-      - 🇺🇸 US_24
-      - 🇺🇸 US_25
-      - 🇺🇸 US_26
-      - 🇺🇸 US_27
   - name: 🇨🇳 偏僻节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -233,15 +169,10 @@ proxy-groups:
       - ⭐摩尔多瓦2
       - ⭐摩尔多瓦3
       - 🇫🇷 ⭐FR_01
-      - 🇫🇷 FR_02
       - 🇮🇱 ⭐IL_01
       - 🇮🇱 ⭐IL_02
       - 🇳🇱 ⭐NL_01
-      - 阿联酋
-      - 卢森堡
-      - 🇩🇪 DE_01
-      - 🇰🇷 KR_01
-      - 🇰🇷 KR_02
+
 
 ###################################################################################
 #############后方止步################################################################
