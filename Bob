@@ -7,8 +7,8 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
-  - {name: 🇺🇸 ⭐Bob, server: 1.bobaizoe.ml, port: 44254, type: trojan, password: p662dJgxHb, sni: 1.bobaizoe.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 ⭐Zoe, server: 1.bobaizoe.ml, port: 51169, type: trojan, password: L7BjFMaUbV, sni: 1.bobaizoe.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Bob, server: 1.bobaizoe.ml, port: 44254, type: trojan, password: p662dJgxHb, sni: 1.bobaizoe.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ⭐Zoe, server: 1.bobaizoe.ml, port: 51169, type: trojan, password: L7BjFMaUbV, sni: 1.bobaizoe.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐US_01, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usaadm.oracleusa.ml}}, udp: true}
   - {name: 🇺🇸 ⭐US_02, server: usa1.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usa1.oracleusa.ml}}, udp: true}
   - {name: 🇺🇸 ⭐US_03, server: 23.99.123.83, port: 8020, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usa.oracleusa.ml}}, udp: true}
