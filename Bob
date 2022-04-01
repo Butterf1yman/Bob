@@ -29,7 +29,9 @@ proxies:
   - {name: 🇺🇸 ⭐US_16, server: 20.212.220.101, port: 8007, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: usa.oracleusa.ml}}, udp: true}
   - {name: 🇺🇸 ⭐US_17, server: de.oracleusa.ml, port: 443, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: de.oracleusa.ml}}, udp: true}
   - {name: 🇭🇰 HK_01, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: 🇭🇰 HK_02, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP_01, server: os2-6.nrojat.com, port: 443, type: trojan, password: 8vvY3btYPApRtf88QR, sni: os2-6.nrojat.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP_02, server: os2-4.nigirocloud.com, port: 443, type: trojan, password: x3MdzdVvaffC97yuHt, sni: os2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 ⭐RU_01, server: 20.212.220.101, port: 8002, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru2.gfwglass.tk}}, udp: true}
   - {name: 🇷🇺 ⭐RU_02, server: 20.212.220.101, port: 8011, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
   - {name: 🇷🇺 ⭐RU_03, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ru.oracleusa.ml}}, udp: true}
@@ -43,7 +45,6 @@ proxies:
   - {name: ⭐摩尔多瓦2, server: ex.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ex.oracleusa.ml}}, udp: true}
   - {name: ⭐摩尔多瓦3, server: 20.212.220.101, port: 8004, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ex.oracleusa.ml}}, udp: true}
   - {name: 🇫🇷 ⭐FR_01, server: fr.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: fr.oracleusa.ml}}, udp: true}
-  - {name: 🇫🇷 FR_02, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 🇮🇱 ⭐IL_01, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
   - {name: 🇮🇱 ⭐IL_02, server: je.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: je.oracleusa.ml}}, udp: true}
   - {name: 🇳🇱 ⭐NL_01, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: 08803655-8d78-3677-9f42-711c0b151660, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: nl.oracleusa.ml}}, udp: true}
@@ -85,7 +86,9 @@ proxy-groups:
       - 🇺🇸 ⭐US_16
       - 🇺🇸 ⭐US_17
       - 🇭🇰 HK_01
+      - 🇭🇰 HK_02
       - 🇯🇵 JP_01
+      - 🇯🇵 JP_02
       - 🇷🇺 ⭐RU_01
       - 🇷🇺 ⭐RU_02
       - 🇷🇺 ⭐RU_03
@@ -122,6 +125,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 HK_01
+      - 🇭🇰 HK_02
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -129,6 +133,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 JP_01
+      - 🇯🇵 JP_02
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
