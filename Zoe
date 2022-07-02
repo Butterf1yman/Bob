@@ -7,8 +7,8 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
-  - {name: 🇺🇸 ⭐Bob, server: 2.bobaizoe.ml, port: 35513, type: trojan, password: eZfBAEb4Fm, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ⭐Zoe, server: 2.bobaizoe.ml, port: 41728, type: trojan, password: F2chs8V9zX, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ⭐Bob, server: 2.bobaizoe.ml, port: 32158, type: trojan, password: idS38uVwke, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ⭐Zoe, server: 2.bobaizoe.ml, port: 19529, type: trojan, password: AJ9KAhX7e1, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
 
 #############策略组################################################################
 proxy-groups:
