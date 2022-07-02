@@ -7,10 +7,8 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
-  - {name: 🇺🇸 ⭐Bob, server: 2.bobaizoe.ml, port: 35513, type: trojan, password: eZfBAEb4Fm, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ⭐Zoe, server: 2.bobaizoe.ml, port: 41728, type: trojan, password: F2chs8V9zX, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK_01, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 🇯🇵 JP_01, server: os2-6.nrojat.com, port: 443, type: trojan, password: 8vvY3btYPApRtf88QR, sni: os2-6.nrojat.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Bob, server: 2.bobaizoe.ml, port: 32158, type: trojan, password: idS38uVwke, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ⭐Zoe, server: 2.bobaizoe.ml, port: 19529, type: trojan, password: AJ9KAhX7e1, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
 
 #############策略组################################################################
 proxy-groups:
@@ -29,8 +27,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 ⭐Bob
       - 🇺🇸 ⭐Zoe
-      - 🇭🇰 HK_01
-      - 🇯🇵 JP_01
+
 
   - name: ♻️ 自动选择
     type: url-test
@@ -49,14 +46,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK_01
+      - 🇺🇸 ⭐Bob
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP_01
+      - 🇺🇸 ⭐Bob
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
