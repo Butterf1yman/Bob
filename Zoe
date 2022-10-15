@@ -7,7 +7,7 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
-  - {name: 🇺🇸 ⭐Bob, server: 192.9.235.121, port: 32158, type: trojan, password: idS38uVwke, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Bob, server: 2.bobaizoe.ml, port: 32158, type: trojan, password: idS38uVwke, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐Zoe, server: 192.9.235.121, port: 19529, type: trojan, password: AJ9KAhX7e1, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 ⭐V2, server: 5.bobj.ml, port: 53685, type: trojan, password: wxeEgsHPhy, sni: 5.bobj.ml, skip-cert-verify: false, udp: true}
 
