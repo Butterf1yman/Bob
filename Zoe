@@ -11,7 +11,7 @@ proxies:
   - {name: 🇺🇸 ⭐Zoe, server: 2.bobaizoe.ml, port: 19529, type: trojan, password: AJ9KAhX7e1, sni: 2.bobaizoe.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐V2, server: 5.bobj.ml, port: 53685, type: trojan, password: wxeEgsHPhy, sni: 5.bobj.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐V3, server: bobj.ml, port: 9976, type: trojan, password: xUE8XEdWlU, sni: bobj.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ⭐free, server: 150.230.43.88, port: 80, type: vmess, uuid: 1df53830-d237-48d4-e0ed-0be6ee6d15ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐free, server: 150.230.43.88, port: 8766, type: vmess, uuid: 1df53830-d237-48d4-e0ed-0be6ee6d15ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 #############策略组################################################################
 proxy-groups:
   - name: 🚀 节点选择
