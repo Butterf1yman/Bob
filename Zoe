@@ -13,7 +13,6 @@ proxies:
   - {name: 🇺🇸 ⭐V3, server: bobj.ml, port: 9976, type: trojan, password: xUE8XEdWlU, sni: bobj.ml, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 ⭐free, server: 150.230.43.88, port: 8090, type: vmess, uuid: 1a4b7b25-90a1-4fff-8e0b-91f0aff7245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 ⭐freeT, server: 192.9.235.121, port: 807, type: vmess, uuid: de28738d-837f-4180-c06b-add8dad25bb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 ⭐vless, server: 150.230.43.88, port: 31055, type: vless, uuid: 3229f8e2-c3dc-4dcc-a00a-60e06761373a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 #############策略组################################################################
 proxy-groups:
   - name: 🚀 节点选择
@@ -33,7 +32,6 @@ proxy-groups:
       - 🇺🇸 ⭐V3
       - 🇺🇸 ⭐free
       - 🇺🇸 ⭐freeT
-      - 🇺🇸 ⭐vless
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -62,7 +60,7 @@ proxy-groups:
       - 🇺🇸 ⭐V3
       - 🇺🇸 ⭐free
       - 🇺🇸 ⭐freeT
-      - 🇺🇸 ⭐vless
+
 
 ###################################################################################
 #############后方止步################################################################
