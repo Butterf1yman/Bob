@@ -7,10 +7,10 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
-  - {name: 🇺🇸 ⭐Bob, server: 2.bobaizoe.ml, port: 32158, type: trojan, password: idS38uVwke, sni: 2.bobaizoe.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 ⭐Zoe, server: 2.bobaizoe.ml, port: 19529, type: trojan, password: AJ9KAhX7e1, sni: 2.bobaizoe.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 ⭐V2, server: 5.bobj.ml, port: 53685, type: trojan, password: wxeEgsHPhy, sni: 5.bobj.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 ⭐V3, server: bobj.ml, port: 9976, type: trojan, password: xUE8XEdWlU, sni: bobj.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Bob, server: 2.bobaizoe.ml, port: 32158, type: trojan, password: ddS38uVwke, sni: 2.bobaizoe.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Zoe, server: 2.bobaizoe.ml, port: 19529, type: trojan, password: dd9KAhX7e1, sni: 2.bobaizoe.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐V2, server: 5.bobj.ml, port: 53685, type: trojan, password: ddeEgsHPhy, sni: 5.bobj.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐V3, server: bobj.ml, port: 9976, type: trojan, password: ddE8XEdWlU, sni: bobj.ml, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 ⭐free, server: 150.230.43.88, port: 8090, type: vmess, uuid: 1a4b7b25-90a1-4fff-8e0b-91f0aff7245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 ⭐Free, server: 192.9.235.121, port: 807, type: vmess, uuid: de28738d-837f-4180-c06b-add8dad25bb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 #############策略组################################################################
