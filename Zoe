@@ -19,7 +19,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 节点明细
+      - 🇨🇳 节点明细
       - 🚀 手动切换
       - DIRECT
   - name: 🚀 手动切换
@@ -44,7 +44,7 @@ proxy-groups:
       - 🇺🇸 ⭐free
       - 🇺🇸 ⭐freeT
 
-  - name: 🇭🇰 节点明细
+  - name: 🇨🇳 节点明细
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
