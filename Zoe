@@ -65,31 +65,22 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - 🇭🇰 节点明细
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
   - name: 🛑 广告拦截
     type: select
     proxies:
       - REJECT
-      - DIRECT
   - name: 🍃 应用净化
     type: select
     proxies:
       - REJECT
-      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
-      - 🚀 手动切换
       - DIRECT
 #############规则组################################################################
 rules:
