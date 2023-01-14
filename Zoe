@@ -46,10 +46,6 @@ proxy-groups:
 ###################################################################################
 #############后方止步################################################################
 ###################################################################################
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - DIRECT
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1793,33 +1789,33 @@ rules:
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
- - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
- - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
- - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
- - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
- - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
- - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
- - IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
- - IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
- - IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
- - IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
- - IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
- - IP-CIDR,144.178.36.0/22,🍎 苹果服务,no-resolve
- - IP-CIDR,144.178.48.0/20,🍎 苹果服务,no-resolve
- - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
- - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
- - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+ - DOMAIN,apple.comscoreresearch.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aaplimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,akadns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,apple-cloudkit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,apple.co,🎯 全球直连
+ - DOMAIN-SUFFIX,apple.com,🎯 全球直连
+ - DOMAIN-SUFFIX,apple.com.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,apple.news,🎯 全球直连
+ - DOMAIN-SUFFIX,appstore.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cdn-apple.com,🎯 全球直连
+ - DOMAIN-SUFFIX,crashlytics.com,🎯 全球直连
+ - DOMAIN-SUFFIX,icloud-content.com,🎯 全球直连
+ - DOMAIN-SUFFIX,icloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,icloud.com.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,itunes.com,🎯 全球直连
+ - DOMAIN-SUFFIX,me.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mzstatic.com,🎯 全球直连
+ - IP-CIDR,17.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,63.92.224.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,65.199.22.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,139.178.128.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,144.178.0.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,144.178.36.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,144.178.48.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,192.35.50.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,198.183.17.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,205.180.175.0/24,🎯 全球直连,no-resolve
  - DOMAIN,apiintl.biliapi.net,🎯 全球直连
  - DOMAIN,upos-hz-mirrorakam.akamaized.net,🎯 全球直连
  - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
