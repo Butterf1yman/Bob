@@ -61,14 +61,6 @@ proxy-groups:
 ###################################################################################
 #############后方止步################################################################
 ###################################################################################
-  - name: Ⓜ️ 微软云盘
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🚀 手动切换
-      - 🇭🇰 节点明细
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1825,22 +1817,6 @@ rules:
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
- - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
- - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
- - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
- - DOMAIN-KEYWORD,onedrive,Ⓜ️ 微软云盘
- - DOMAIN-KEYWORD,skydrive,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,livefilestore.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,oneclient.sfx.ms,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,onedrive.live.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,photos.live.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,skydrive.wns.windows.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,storage.live.com,Ⓜ️ 微软云盘
- - DOMAIN-SUFFIX,storage.msn.com,Ⓜ️ 微软云盘
  - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
