@@ -13,6 +13,9 @@ proxies:
   - {name: 🇺🇸 ⭐Arm Trojan TLS, server: 5.bobj.ml, port: 53685, type: trojan, password: ddeEgsHPhy, sni: 5.bobj.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐Arm Trojan XTLS, server: 5.bobj.ml, port: 9976, type: trojan, password: ddE8XEdWlU, sni: 5.bobj.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐Arm Vmess TCP, server: 155.248.208.227, port: 8998, type: vmess, uuid: 1a4b7b25-90a1-4fff-8e0b-91f0aff7245e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Zoe Trojan TLS, server: 5.zoes.ml, port: 35022, type: trojan, password: Y1IgCl5pm0, sni: 5.zoes.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ⭐Zoe Trojan XTLS, server: 5.zoes.ml, port: 28635, type: trojan, password: riCqH4qy2K, sni: 5.zoes.ml, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ⭐Zoe Vmess TCP, server: 155.248.198.0, port: 17000, type: vmess, uuid: 622f6c26-7292-4ccf-f74e-5af01df9ca48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 #############策略组################################################################
 proxy-groups:
   - name: 🚀 节点选择
@@ -27,6 +30,9 @@ proxy-groups:
       - 🇺🇸 ⭐Love Trojan TLS
       - 🇺🇸 ⭐Love Trojan XTLS
       - 🇺🇸 ⭐Love Vmess TCP
+      - 🇺🇸 ⭐Zoe Trojan TLS
+      - 🇺🇸 ⭐Zoe Trojan XTLS
+      - 🇺🇸 ⭐Zoe Vmess TCP
       - 🇺🇸 ⭐Arm Trojan TLS
       - 🇺🇸 ⭐Arm Trojan XTLS
       - 🇺🇸 ⭐Arm Vmess TCP
@@ -40,9 +46,13 @@ proxy-groups:
       - 🇺🇸 ⭐Love Trojan TLS
       - 🇺🇸 ⭐Love Trojan XTLS
       - 🇺🇸 ⭐Love Vmess TCP
+      - 🇺🇸 ⭐Zoe Trojan TLS
+      - 🇺🇸 ⭐Zoe Trojan XTLS
+      - 🇺🇸 ⭐Zoe Vmess TCP
       - 🇺🇸 ⭐Arm Trojan TLS
       - 🇺🇸 ⭐Arm Trojan XTLS
       - 🇺🇸 ⭐Arm Vmess TCP
+
 
 
 ###################################################################################
