@@ -16,7 +16,7 @@ proxies:
   - {name: 🇺🇸 ⭐Zoe Trojan TLS, server: 5.zoes.ml, port: 35022, type: trojan, password: Y1IgCl5pm0, sni: 5.zoes.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐Zoe Trojan XTLS, server: 5.zoes.ml, port: 28635, type: trojan, password: riCqH4qy2K, sni: 5.zoes.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐Zoe Vmess TCP, server: 155.248.198.0, port: 17000, type: vmess, uuid: 622f6c26-7292-4ccf-f74e-5af01df9ca48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-#############策略组################################################################
+#############策略组##################################################################
 
 proxy-groups:
   - name: 🚀 节点选择
