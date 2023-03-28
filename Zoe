@@ -7,15 +7,16 @@ external-controller: :9090
 
 #############代理节点################################################################
 proxies:
-  - {name: 🇺🇸 ⭐Love TT, server: 66.bobaizoe.ml, port: 31275, type: trojan, password: ddS38uVwke, sni: 66.bobaizoe.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ⭐Love TX, server: 66.bobaizoe.ml, port: 19529, type: trojan, password: dd9KAhX7e1, sni: 66.bobaizoe.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ⭐Love VT, server: 66.bobaizoe.ml, port: 807, type: vmess, uuid: de28738d-837f-4180-c06b-add8dad25bb3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ⭐Love TT, server: 66.bobaizoe.ml, port: 31275, type: trojan, password: ddS38uVwke, sni: 66.bobaizoe.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Love TX, server: 66.bobaizoe.ml, port: 19529, type: trojan, password: dd9KAhX7e1, sni: 66.bobaizoe.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Love VT, server: 66.bobaizoe.ml, port: 807, type: vmess, uuid: de28738d-837f-4180-c06b-add8dad25bb3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Love WS, server: 192.9.243.236, port: 443, type: vmess, uuid: 8df5cdc4-bc28-4a04-be5c-c89fa83efb7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /1, ws-headers: {Host: 192.9.243.236}, udp: true}
   - {name: 🇺🇸 ⭐Arm TT, server: 5.bobj.ml, port: 53685, type: trojan, password: ddeEgsHPhy, sni: 5.bobj.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐Arm TX, server: 5.bobj.ml, port: 9976, type: trojan, password: ddE8XEdWlU, sni: 5.bobj.ml, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 ⭐Arm VT, server: 5.bobj.ml, port: 8998, type: vmess, uuid: 1a4b7b25-90a1-4fff-8e0b-91f0aff7245e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ⭐Zoe TT, server: 6.zoes.ml, port: 35022, type: trojan, password: Y1IgCl5pm0, sni: 6.zoes.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ⭐Zoe TX, server: 6.zoes.ml, port: 28635, type: trojan, password: riCqH4qy2K, sni: 6.zoes.ml, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ⭐Zoe VT, server: 6.zoes.ml, port: 17000, type: vmess, uuid: 622f6c26-7292-4ccf-f74e-5af01df9ca48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ⭐Zoe TT, server: 6.zoes.ml, port: 35022, type: trojan, password: Y1IgCl5pm0, sni: 6.zoes.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Zoe TX, server: 6.zoes.ml, port: 28635, type: trojan, password: riCqH4qy2K, sni: 6.zoes.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 ⭐Zoe VT, server: 6.zoes.ml, port: 17000, type: vmess, uuid: 622f6c26-7292-4ccf-f74e-5af01df9ca48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 #############策略组##################################################################
 
 proxy-groups:
@@ -31,6 +32,7 @@ proxy-groups:
       - 🇺🇸 ⭐Love TT
       - 🇺🇸 ⭐Love TX
       - 🇺🇸 ⭐Love VT
+      - 🇺🇸 ⭐Love WS
       - 🇺🇸 ⭐Zoe TT
       - 🇺🇸 ⭐Zoe TX
       - 🇺🇸 ⭐Zoe VT
@@ -47,6 +49,7 @@ proxy-groups:
       - 🇺🇸 ⭐Love TT
       - 🇺🇸 ⭐Love TX
       - 🇺🇸 ⭐Love VT
+      - 🇺🇸 ⭐Love WS
       - 🇺🇸 ⭐Zoe TT
       - 🇺🇸 ⭐Zoe TX
       - 🇺🇸 ⭐Zoe VT
